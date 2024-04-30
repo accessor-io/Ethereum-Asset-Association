@@ -1,0 +1,10 @@
+app.py
+e2e_test.py
+index.py
+server_test.py
+setup.py
+worker.py
+ccip_read_dns_gateway_python.egg-info/PKG-INFO
+ccip_read_dns_gateway_python.egg-info/SOURCES.txt
+ccip_read_dns_gateway_python.egg-info/dependency_links.txt
+ccip_read_dns_gateway_python.egg-info/top_level.txt
