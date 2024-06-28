@@ -1,0 +1,282 @@
+{
+  "contractName": "IRegistry",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "hash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "resolver",
+          "type": "address"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "hash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getResolver",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"}],\"name\":\"getResolver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"resolver\",\"type\":\"address\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IRegistry.sol\":\"IRegistry\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IRegistry.sol\":{\"keccak256\":\"0x9d6ca82af9579568f92dc588ae628ba4c5b37ac1bf0138011f6731653404c4fc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0702f61c804c60dfc0fa812823db5f072e26b60ae524297ce19563f833fade3e\",\"dweb:/ipfs/QmTrkQUXAKdsym59XqtEqycrsCoJPHsPbA4yg4J3bi4eQg\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IRegistry {\n    function register(bytes32 hash, address resolver) external;\n    function getResolver(bytes32 hash) external view returns (address);\n}\n\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/IRegistry.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IRegistry.sol",
+    "exportedSymbols": {
+      "IRegistry": [
+        3150
+      ]
+    },
+    "id": 3151,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3135,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:26"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IRegistry",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3150,
+        "linearizedBaseContracts": [
+          3150
+        ],
+        "name": "IRegistry",
+        "nameLocation": "67:9:26",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "d22057a9",
+            "id": 3142,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "register",
+            "nameLocation": "92:8:26",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3140,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3137,
+                  "mutability": "mutable",
+                  "name": "hash",
+                  "nameLocation": "109:4:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3142,
+                  "src": "101:12:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3136,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "101:7:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3139,
+                  "mutability": "mutable",
+                  "name": "resolver",
+                  "nameLocation": "123:8:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3142,
+                  "src": "115:16:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3138,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "115:7:26",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "100:32:26"
+            },
+            "returnParameters": {
+              "id": 3141,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "141:0:26"
+            },
+            "scope": 3150,
+            "src": "83:59:26",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "ea6ec3de",
+            "id": 3149,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getResolver",
+            "nameLocation": "156:11:26",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3145,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3144,
+                  "mutability": "mutable",
+                  "name": "hash",
+                  "nameLocation": "176:4:26",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3149,
+                  "src": "168:12:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3143,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "168:7:26",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "167:14:26"
+            },
+            "returnParameters": {
+              "id": 3148,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3147,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3149,
+                  "src": "205:7:26",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3146,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "205:7:26",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "204:9:26"
+            },
+            "scope": 3150,
+            "src": "147:67:26",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3151,
+        "src": "57:159:26",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:186:26"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.179Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

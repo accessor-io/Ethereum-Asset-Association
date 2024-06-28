@@ -1,0 +1,282 @@
+{
+  "contractName": "IAttestationManager",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "subject",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "data",
+          "type": "bytes32"
+        }
+      ],
+      "name": "createAttestation",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "subject",
+          "type": "address"
+        }
+      ],
+      "name": "getAttestation",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"subject\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"data\",\"type\":\"bytes32\"}],\"name\":\"createAttestation\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"subject\",\"type\":\"address\"}],\"name\":\"getAttestation\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IAttestationManager.sol\":\"IAttestationManager\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IAttestationManager.sol\":{\"keccak256\":\"0x0e99b9a60a54df8f693a193ea7a8d29a594b3204e64e9017e6f8ee403b919f80\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9a2cdee6f6c1e7244594f4dbf6419f875af27e4db0122da807ff27b961eb637d\",\"dweb:/ipfs/QmPRE18AxbZPqjypTnudzXHKtp9P5XXDvR4xxwSWbubYsL\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IAttestationManager {\n    function createAttestation(address subject, bytes32 data) external;\n    function getAttestation(address subject) external view returns (bytes32);\n}\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/IAttestationManager.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IAttestationManager.sol",
+    "exportedSymbols": {
+      "IAttestationManager": [
+        3072
+      ]
+    },
+    "id": 3073,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3057,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:20"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAttestationManager",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3072,
+        "linearizedBaseContracts": [
+          3072
+        ],
+        "name": "IAttestationManager",
+        "nameLocation": "67:19:20",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "c60a1431",
+            "id": 3064,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "createAttestation",
+            "nameLocation": "102:17:20",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3062,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3059,
+                  "mutability": "mutable",
+                  "name": "subject",
+                  "nameLocation": "128:7:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3064,
+                  "src": "120:15:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3058,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3061,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "145:4:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3064,
+                  "src": "137:12:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3060,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "137:7:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "119:31:20"
+            },
+            "returnParameters": {
+              "id": 3063,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "159:0:20"
+            },
+            "scope": 3072,
+            "src": "93:67:20",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "f9b71797",
+            "id": 3071,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getAttestation",
+            "nameLocation": "174:14:20",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3067,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3066,
+                  "mutability": "mutable",
+                  "name": "subject",
+                  "nameLocation": "197:7:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3071,
+                  "src": "189:15:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3065,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "189:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "188:17:20"
+            },
+            "returnParameters": {
+              "id": 3070,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3069,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3071,
+                  "src": "229:7:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 3068,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "229:7:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "228:9:20"
+            },
+            "scope": 3072,
+            "src": "165:73:20",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3073,
+        "src": "57:183:20",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:209:20"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.136Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

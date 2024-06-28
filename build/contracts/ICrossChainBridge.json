@@ -1,0 +1,244 @@
+{
+  "contractName": "ICrossChainBridge",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "destinationChainId",
+          "type": "uint256"
+        }
+      ],
+      "name": "bridgeTokens",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"destinationChainId\",\"type\":\"uint256\"}],\"name\":\"bridgeTokens\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ICrossChainBridge.sol\":\"ICrossChainBridge\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ICrossChainBridge.sol\":{\"keccak256\":\"0xc0f30df7d114f90135680aebf33ed4eca54fc8383345e4bbc351308ae9060311\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7a77fdb2d6f23258a76cc82184fd68efed9ca7882228c62dc22b8de6f4c3cce0\",\"dweb:/ipfs/QmXQ9BDWCz163v7ocTuq3W3KKgUaY2Bmv7PTqA28J6Bkwa\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface ICrossChainBridge {\n    function bridgeTokens(address token, uint256 amount, address recipient, uint256 destinationChainId) external;\n}\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/ICrossChainBridge.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ICrossChainBridge.sol",
+    "exportedSymbols": {
+      "ICrossChainBridge": [
+        3101
+      ]
+    },
+    "id": 3102,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3089,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:22"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICrossChainBridge",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3101,
+        "linearizedBaseContracts": [
+          3101
+        ],
+        "name": "ICrossChainBridge",
+        "nameLocation": "67:17:22",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "2f99492f",
+            "id": 3100,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "bridgeTokens",
+            "nameLocation": "100:12:22",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3098,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3091,
+                  "mutability": "mutable",
+                  "name": "token",
+                  "nameLocation": "121:5:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3100,
+                  "src": "113:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3090,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "113:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3093,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "136:6:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3100,
+                  "src": "128:14:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3092,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "128:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3095,
+                  "mutability": "mutable",
+                  "name": "recipient",
+                  "nameLocation": "152:9:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3100,
+                  "src": "144:17:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3094,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "144:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3097,
+                  "mutability": "mutable",
+                  "name": "destinationChainId",
+                  "nameLocation": "171:18:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3100,
+                  "src": "163:26:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3096,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "163:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "112:78:22"
+            },
+            "returnParameters": {
+              "id": 3099,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "199:0:22"
+            },
+            "scope": 3101,
+            "src": "91:109:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3102,
+        "src": "57:145:22",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:171:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.137Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

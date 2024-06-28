@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockEAS",
+  "sourceName": "contracts/MockEAS.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205a3dfdb0d1e724d88ec3c0b53cf496a3b64ca0d9e03a3502c3dc24dbf4618ebc64736f6c634300081a0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212205a3dfdb0d1e724d88ec3c0b53cf496a3b64ca0d9e03a3502c3dc24dbf4618ebc64736f6c634300081a0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

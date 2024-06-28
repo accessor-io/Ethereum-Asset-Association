@@ -1,0 +1,180 @@
+{
+  "contractName": "IProofVerifier",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "proof",
+          "type": "bytes"
+        }
+      ],
+      "name": "verifyProof",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"proof\",\"type\":\"bytes\"}],\"name\":\"verifyProof\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IProofVerifier.sol\":\"IProofVerifier\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IProofVerifier.sol\":{\"keccak256\":\"0xd59756c79032f040de5d6d9e4da0a93eebd3737eb1dc5c0e4bd5847ff9824e16\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4111df6fe14e49dbaa4fca8947f615511389be54203e3054a5a77becfc4c82a7\",\"dweb:/ipfs/QmQCNcWdCPTp4wGRCosw3hAYRFkHHH93WUeDTNHgVYTqV2\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IProofVerifier {\n    function verifyProof(bytes calldata proof) external view returns (bool);\n}\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/IProofVerifier.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IProofVerifier.sol",
+    "exportedSymbols": {
+      "IProofVerifier": [
+        3133
+      ]
+    },
+    "id": 3134,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3125,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:25"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IProofVerifier",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3133,
+        "linearizedBaseContracts": [
+          3133
+        ],
+        "name": "IProofVerifier",
+        "nameLocation": "67:14:25",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "55c265fe",
+            "id": 3132,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "verifyProof",
+            "nameLocation": "97:11:25",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3128,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3127,
+                  "mutability": "mutable",
+                  "name": "proof",
+                  "nameLocation": "124:5:25",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3132,
+                  "src": "109:20:25",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 3126,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "109:5:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "108:22:25"
+            },
+            "returnParameters": {
+              "id": 3131,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3130,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3132,
+                  "src": "154:4:25",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 3129,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "154:4:25",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "153:6:25"
+            },
+            "scope": 3133,
+            "src": "88:72:25",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3134,
+        "src": "57:105:25",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:131:25"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.179Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

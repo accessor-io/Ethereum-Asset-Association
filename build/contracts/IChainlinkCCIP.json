@@ -1,0 +1,247 @@
+{
+  "contractName": "IChainlinkCCIP",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "destinationChain",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "sendData",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "receiveData",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"receiveData\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"destinationChain\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"sendData\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IChainlinkCCIP.sol\":\"IChainlinkCCIP\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IChainlinkCCIP.sol\":{\"keccak256\":\"0xc4df9d59036a6d0bc8536546c4d975aac7828db0a5ee2d58862c83d1fdf5e3c6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e64d6b67401b5e620a43fa911205ef127a28c42d255b40b2729fe37b8cc8ce2\",\"dweb:/ipfs/QmZM8rt9KykWVuQNaup25pSemRfE8h8sLVsxsvq6xoNTHe\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IChainlinkCCIP {\n    function sendData(address destinationChain, bytes calldata data) external;\n    function receiveData(bytes calldata data) external;\n}\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/IChainlinkCCIP.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IChainlinkCCIP.sol",
+    "exportedSymbols": {
+      "IChainlinkCCIP": [
+        3087
+      ]
+    },
+    "id": 3088,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3074,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:21"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IChainlinkCCIP",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3087,
+        "linearizedBaseContracts": [
+          3087
+        ],
+        "name": "IChainlinkCCIP",
+        "nameLocation": "67:14:21",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "8823d224",
+            "id": 3081,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sendData",
+            "nameLocation": "97:8:21",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3079,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3076,
+                  "mutability": "mutable",
+                  "name": "destinationChain",
+                  "nameLocation": "114:16:21",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3081,
+                  "src": "106:24:21",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3075,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "106:7:21",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3078,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "147:4:21",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3081,
+                  "src": "132:19:21",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 3077,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "132:5:21",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "105:47:21"
+            },
+            "returnParameters": {
+              "id": 3080,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "161:0:21"
+            },
+            "scope": 3087,
+            "src": "88:74:21",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "b410f645",
+            "id": 3086,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "receiveData",
+            "nameLocation": "176:11:21",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3084,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3083,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "203:4:21",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3086,
+                  "src": "188:19:21",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 3082,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "188:5:21",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "187:21:21"
+            },
+            "returnParameters": {
+              "id": 3085,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "217:0:21"
+            },
+            "scope": 3087,
+            "src": "167:51:21",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3088,
+        "src": "57:163:21",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:189:21"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.136Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

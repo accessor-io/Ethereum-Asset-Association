@@ -1,0 +1,179 @@
+{
+  "contractName": "IExternalBridge",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "destinationChain",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "sendData",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"destinationChain\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"sendData\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IExternalBridge.sol\":\"IExternalBridge\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IExternalBridge.sol\":{\"keccak256\":\"0xe99ec97cc4b0164e4fae48af9979311d9800f025b6eda6d92f4241c16d16ecee\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://81f6ed768ffaf4bf0c30d95355255ef91138137395dcca5d65b34643022e533c\",\"dweb:/ipfs/QmSAhNJq6wqi85TvvtH91sonitJjSpGU1v87T78k3pN2Sk\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IExternalBridge {\n    function sendData(address destinationChain, bytes calldata data) external;\n}\n",
+  "sourcePath": "/home/dot/attestation-manager-dist/contracts/IExternalBridge.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IExternalBridge.sol",
+    "exportedSymbols": {
+      "IExternalBridge": [
+        3123
+      ]
+    },
+    "id": 3124,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3115,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:24"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IExternalBridge",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 3123,
+        "linearizedBaseContracts": [
+          3123
+        ],
+        "name": "IExternalBridge",
+        "nameLocation": "67:15:24",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "8823d224",
+            "id": 3122,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sendData",
+            "nameLocation": "98:8:24",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3120,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3117,
+                  "mutability": "mutable",
+                  "name": "destinationChain",
+                  "nameLocation": "115:16:24",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3122,
+                  "src": "107:24:24",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3116,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:24",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3119,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nameLocation": "148:4:24",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3122,
+                  "src": "133:19:24",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 3118,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "133:5:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "106:47:24"
+            },
+            "returnParameters": {
+              "id": 3121,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "162:0:24"
+            },
+            "scope": 3123,
+            "src": "89:74:24",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 3124,
+        "src": "57:108:24",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:134:24"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.26+commit.8a97fa7a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-25T10:50:55.178Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
