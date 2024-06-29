@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.16;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
@@ -11,8 +11,8 @@ contract ProofVerifier is AccessControl {
         _setupRole(VERIFIER_ROLE, msg.sender);
     }
 
-    // Implement proof verification logic
-    function verifyProof() public pure returns (bool) {
+    function verifyProof() external view onlyRole(VERIFIER_ROLE) returns (bool) {
+        // Implement proof verification logic
         return true;
     }
 }
