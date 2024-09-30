@@ -38,3 +38,100 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.pixel-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.card-hover-effect {
+  transition: all 0.3s;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.yellow-accent {
+  color: #ffd300;
+}
+
+.yellow-bg {
+  background-color: rgba(255, 220, 0, 0.1);
+}
+
+.pixel {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 220, 0, 0.5);
+  pointer-events: none;
+  animation: pixel-movement 3s infinite;
+}
+
+@keyframes pixel-movement {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Additional styles moved from App.js */
+.brand-color {
+  color: #ffd300;
+}
+
+.brand-bg-light {
+  background-color: #fff9db;
+}
+
+.brand-bg-dark {
+  background-color: #665700;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.input-border {
+  border-color: #e2e8f0;
+}
+
+.input-border-dark {
+  border-color: #4a5568;
+}
+
+.toggle-button {
+  transition: all 0.2s;
+}
+
+.toggle-button:hover {
+  transform: scale(1.1);
+}
+
+.toggle-button:active {
+  transform: scale(0.95);
+}

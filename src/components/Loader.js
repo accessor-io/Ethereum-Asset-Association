@@ -1,10 +1,10 @@
 import React from 'react';
-import './Loader.css'; // Ensure this file exists
+import { Spinner, Center } from '@chakra-ui/react';
 
 const Loader = () => (
-    <div className="loader">
-        Loading...
-    </div>
+    <Center>
+        <Spinner size="xl" />
+    </Center>
 );
 
 export default Loader;

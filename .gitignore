@@ -1,3 +1,6 @@
 node_modules
 log
 /log
+.next
+.env
+.env.local

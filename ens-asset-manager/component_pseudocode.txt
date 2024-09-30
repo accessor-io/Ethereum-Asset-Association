@@ -1,0 +1,423 @@
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/Diagnostic.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/SimpleDiagnostic.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/Resolver.sol:
+// Component for function setAddress(bytes32 name, address addr) external onlyRole(RESOLVER_ROLE) {
+function functionsetAddressComponent() {
+  // TODO: Implement component logic for function setAddress(bytes32 name, address addr) external onlyRole(RESOLVER_ROLE) {
+  return <div>function setAddress(bytes32 name, address addr) external onlyRole(RESOLVER_ROLE) {</div>;
+}
+
+// Component for function getAddress(bytes32 name) external view returns (address) {
+function functiongetAddressComponent() {
+  // TODO: Implement component logic for function getAddress(bytes32 name) external view returns (address) {
+  return <div>function getAddress(bytes32 name) external view returns (address) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/Oracle.sol:
+// Component for function setData(bytes32 key, uint256 value) external onlyRole(ORACLE_ROLE) {
+function functionsetDataComponent() {
+  // TODO: Implement component logic for function setData(bytes32 key, uint256 value) external onlyRole(ORACLE_ROLE) {
+  return <div>function setData(bytes32 key, uint256 value) external onlyRole(ORACLE_ROLE) {</div>;
+}
+
+// Component for function getData(bytes32 key) external view returns (uint256) {
+function functiongetDataComponent() {
+  // TODO: Implement component logic for function getData(bytes32 key) external view returns (uint256) {
+  return <div>function getData(bytes32 key) external view returns (uint256) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/AddressRegistry.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/SchemaRegistry.sol:
+// Component for function registerSchema(bytes32 name, string memory schema) external onlyRole(REGISTRAR_ROLE) {
+function functionregisterSchemaComponent() {
+  // TODO: Implement component logic for function registerSchema(bytes32 name, string memory schema) external onlyRole(REGISTRAR_ROLE) {
+  return <div>function registerSchema(bytes32 name, string memory schema) external onlyRole(REGISTRAR_ROLE) {</div>;
+}
+
+// Component for function getSchema(bytes32 name) external view returns (Schema memory) {
+function functiongetSchemaComponent() {
+  // TODO: Implement component logic for function getSchema(bytes32 name) external view returns (Schema memory) {
+  return <div>function getSchema(bytes32 name) external view returns (Schema memory) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IRegistry.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IAttestationManager.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/AttestationManager.sol:
+// Component for event AttestationCreated(bytes32 indexed hash, address indexed pivot);
+function eventAttestationCreatedComponent() {
+  // TODO: Implement component logic for event AttestationCreated(bytes32 indexed hash, address indexed pivot);
+  return <div>event AttestationCreated(bytes32 indexed hash, address indexed pivot);</div>;
+}
+
+// Component for event AddressAdded(bytes32 indexed hash, address indexed addedBy, address addr);
+function eventAddressAddedComponent() {
+  // TODO: Implement component logic for event AddressAdded(bytes32 indexed hash, address indexed addedBy, address addr);
+  return <div>event AddressAdded(bytes32 indexed hash, address indexed addedBy, address addr);</div>;
+}
+
+// Component for event AddressRemoved(bytes32 indexed hash, address indexed removedBy, address addr);
+function eventAddressRemovedComponent() {
+  // TODO: Implement component logic for event AddressRemoved(bytes32 indexed hash, address indexed removedBy, address addr);
+  return <div>event AddressRemoved(bytes32 indexed hash, address indexed removedBy, address addr);</div>;
+}
+
+// Component for event EmergencyBreak(bytes32 indexed hash, address indexed by);
+function eventEmergencyBreakComponent() {
+  // TODO: Implement component logic for event EmergencyBreak(bytes32 indexed hash, address indexed by);
+  return <div>event EmergencyBreak(bytes32 indexed hash, address indexed by);</div>;
+}
+
+// Component for modifier collectFee() {
+function modifiercollectFeeComponent() {
+  // TODO: Implement component logic for modifier collectFee() {
+  return <div>modifier collectFee() {</div>;
+}
+
+// Component for function createAttestation(bytes32 hash, address[] memory initialAddresses, string[] memory details) external payable onlyRole(PIVOT_ROLE) collectFee {
+function functioncreateAttestationComponent() {
+  // TODO: Implement component logic for function createAttestation(bytes32 hash, address[] memory initialAddresses, string[] memory details) external payable onlyRole(PIVOT_ROLE) collectFee {
+  return <div>function createAttestation(bytes32 hash, address[] memory initialAddresses, string[] memory details) external payable onlyRole(PIVOT_ROLE) collectFee {</div>;
+}
+
+// Component for function addAddress(bytes32 hash, address addr, string memory detail) external onlyRole(PIVOT_ROLE) {
+function functionaddAddressComponent() {
+  // TODO: Implement component logic for function addAddress(bytes32 hash, address addr, string memory detail) external onlyRole(PIVOT_ROLE) {
+  return <div>function addAddress(bytes32 hash, address addr, string memory detail) external onlyRole(PIVOT_ROLE) {</div>;
+}
+
+// Component for function removeAddress(bytes32 hash, address addr) external onlyRole(PIVOT_ROLE) {
+function functionremoveAddressComponent() {
+  // TODO: Implement component logic for function removeAddress(bytes32 hash, address addr) external onlyRole(PIVOT_ROLE) {
+  return <div>function removeAddress(bytes32 hash, address addr) external onlyRole(PIVOT_ROLE) {</div>;
+}
+
+// Component for function triggerEmergencyBreak(bytes32 hash) external onlyRole(EMERGENCY_ROLE) {
+function functiontriggerEmergencyBreakComponent() {
+  // TODO: Implement component logic for function triggerEmergencyBreak(bytes32 hash) external onlyRole(EMERGENCY_ROLE) {
+  return <div>function triggerEmergencyBreak(bytes32 hash) external onlyRole(EMERGENCY_ROLE) {</div>;
+}
+
+// Component for function getAddresses(bytes32 hash) external view returns (address[] memory) {
+function functiongetAddressesComponent() {
+  // TODO: Implement component logic for function getAddresses(bytes32 hash) external view returns (address[] memory) {
+  return <div>function getAddresses(bytes32 hash) external view returns (address[] memory) {</div>;
+}
+
+// Component for function getDetails(bytes32 hash, address addr) external view returns (string memory) {
+function functiongetDetailsComponent() {
+  // TODO: Implement component logic for function getDetails(bytes32 hash, address addr) external view returns (string memory) {
+  return <div>function getDetails(bytes32 hash, address addr) external view returns (string memory) {</div>;
+}
+
+// Component for function verifyAttestation(bytes32 attestationId, bytes32 hash) external view returns (bool) {
+function functionverifyAttestationComponent() {
+  // TODO: Implement component logic for function verifyAttestation(bytes32 attestationId, bytes32 hash) external view returns (bool) {
+  return <div>function verifyAttestation(bytes32 attestationId, bytes32 hash) external view returns (bool) {</div>;
+}
+
+// Component for function updateRegistrationFee(uint256 newFee) external onlyOwner {
+function functionupdateRegistrationFeeComponent() {
+  // TODO: Implement component logic for function updateRegistrationFee(uint256 newFee) external onlyOwner {
+  return <div>function updateRegistrationFee(uint256 newFee) external onlyOwner {</div>;
+}
+
+// Component for function updateFeeCollector(address newCollector) external onlyOwner {
+function functionupdateFeeCollectorComponent() {
+  // TODO: Implement component logic for function updateFeeCollector(address newCollector) external onlyOwner {
+  return <div>function updateFeeCollector(address newCollector) external onlyOwner {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IProofVerifier.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/CCIPCrossChainBridge.sol:
+// Component for event DataSent(address indexed destinationChain, bytes data);
+function eventDataSentComponent() {
+  // TODO: Implement component logic for event DataSent(address indexed destinationChain, bytes data);
+  return <div>event DataSent(address indexed destinationChain, bytes data);</div>;
+}
+
+// Component for event DataReceived(address indexed sourceChain, bytes data);
+function eventDataReceivedComponent() {
+  // TODO: Implement component logic for event DataReceived(address indexed sourceChain, bytes data);
+  return <div>event DataReceived(address indexed sourceChain, bytes data);</div>;
+}
+
+// Component for event BridgeAddressSet(address indexed destinationChain, address bridgeAddress);
+function eventBridgeAddressSetComponent() {
+  // TODO: Implement component logic for event BridgeAddressSet(address indexed destinationChain, address bridgeAddress);
+  return <div>event BridgeAddressSet(address indexed destinationChain, address bridgeAddress);</div>;
+}
+
+// Component for event ExternalBridgeContractSet(address indexed destinationChain, address externalBridgeContract);
+function eventExternalBridgeContractSetComponent() {
+  // TODO: Implement component logic for event ExternalBridgeContractSet(address indexed destinationChain, address externalBridgeContract);
+  return <div>event ExternalBridgeContractSet(address indexed destinationChain, address externalBridgeContract);</div>;
+}
+
+// Component for event BridgeFeeSet(address indexed destinationChain, uint256 fee);
+function eventBridgeFeeSetComponent() {
+  // TODO: Implement component logic for event BridgeFeeSet(address indexed destinationChain, uint256 fee);
+  return <div>event BridgeFeeSet(address indexed destinationChain, uint256 fee);</div>;
+}
+
+// Component for event SupportedTokenAdded(address indexed destinationChain, address tokenAddress);
+function eventSupportedTokenAddedComponent() {
+  // TODO: Implement component logic for event SupportedTokenAdded(address indexed destinationChain, address tokenAddress);
+  return <div>event SupportedTokenAdded(address indexed destinationChain, address tokenAddress);</div>;
+}
+
+// Component for event TransferCompleted(uint256 indexed transferId);
+function eventTransferCompletedComponent() {
+  // TODO: Implement component logic for event TransferCompleted(uint256 indexed transferId);
+  return <div>event TransferCompleted(uint256 indexed transferId);</div>;
+}
+
+// Component for function validateTransfer(address destinationChain, address token, uint256 amount, bytes memory customData) internal {
+function functionvalidateTransferComponent() {
+  // TODO: Implement component logic for function validateTransfer(address destinationChain, address token, uint256 amount, bytes memory customData) internal {
+  return <div>function validateTransfer(address destinationChain, address token, uint256 amount, bytes memory customData) internal {</div>;
+}
+
+// Component for function bridgeTokens(address token, uint256 amount, address recipient, uint256 destinationChainId) external {
+function functionbridgeTokensComponent() {
+  // TODO: Implement component logic for function bridgeTokens(address token, uint256 amount, address recipient, uint256 destinationChainId) external {
+  return <div>function bridgeTokens(address token, uint256 amount, address recipient, uint256 destinationChainId) external {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/Registry.sol:
+// Component for event Registered(bytes32 indexed hash, address indexed registrant, bytes32 attestationHash);
+function eventRegisteredComponent() {
+  // TODO: Implement component logic for event Registered(bytes32 indexed hash, address indexed registrant, bytes32 attestationHash);
+  return <div>event Registered(bytes32 indexed hash, address indexed registrant, bytes32 attestationHash);</div>;
+}
+
+// Component for event Unregistered(bytes32 indexed hash, address indexed unregistrant);
+function eventUnregisteredComponent() {
+  // TODO: Implement component logic for event Unregistered(bytes32 indexed hash, address indexed unregistrant);
+  return <div>event Unregistered(bytes32 indexed hash, address indexed unregistrant);</div>;
+}
+
+// Component for modifier onlyAdmin() {
+function modifieronlyAdminComponent() {
+  // TODO: Implement component logic for modifier onlyAdmin() {
+  return <div>modifier onlyAdmin() {</div>;
+}
+
+// Component for function register(bytes32 hash, bytes32 attestationHash) external onlyAdmin {
+function functionregisterComponent() {
+  // TODO: Implement component logic for function register(bytes32 hash, bytes32 attestationHash) external onlyAdmin {
+  return <div>function register(bytes32 hash, bytes32 attestationHash) external onlyAdmin {</div>;
+}
+
+// Component for function unregister(bytes32 hash) external onlyAdmin {
+function functionunregisterComponent() {
+  // TODO: Implement component logic for function unregister(bytes32 hash) external onlyAdmin {
+  return <div>function unregister(bytes32 hash) external onlyAdmin {</div>;
+}
+
+// Component for function getRegistration(bytes32 hash) external view returns (address registrant, bytes32 attestationHash) {
+function functiongetRegistrationComponent() {
+  // TODO: Implement component logic for function getRegistration(bytes32 hash) external view returns (address registrant, bytes32 attestationHash) {
+  return <div>function getRegistration(bytes32 hash) external view returns (address registrant, bytes32 attestationHash) {</div>;
+}
+
+// Component for function updateAttestationManager(address newAttestationManager) external onlyOwner {
+function functionupdateAttestationManagerComponent() {
+  // TODO: Implement component logic for function updateAttestationManager(address newAttestationManager) external onlyOwner {
+  return <div>function updateAttestationManager(address newAttestationManager) external onlyOwner {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IExternalBridge.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/MockEAS.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/EASImplementation.sol:
+// Component for function verify(uint256 attestationId, bytes32 hash) external view returns (bool) {
+function functionverifyComponent() {
+  // TODO: Implement component logic for function verify(uint256 attestationId, bytes32 hash) external view returns (bool) {
+  return <div>function verify(uint256 attestationId, bytes32 hash) external view returns (bool) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/Governor.sol:
+// Component for function propose(bytes calldata proposal) external onlyRole(GOVERNOR_ROLE) {
+function functionproposeComponent() {
+  // TODO: Implement component logic for function propose(bytes calldata proposal) external onlyRole(GOVERNOR_ROLE) {
+  return <div>function propose(bytes calldata proposal) external onlyRole(GOVERNOR_ROLE) {</div>;
+}
+
+// Component for function vote(uint256 proposalId, bool support) external onlyRole(GOVERNOR_ROLE) {
+function functionvoteComponent() {
+  // TODO: Implement component logic for function vote(uint256 proposalId, bool support) external onlyRole(GOVERNOR_ROLE) {
+  return <div>function vote(uint256 proposalId, bool support) external onlyRole(GOVERNOR_ROLE) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/ICrossChainBridge.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/ResolverImplementation.sol:
+// Component for function addAddress(bytes32 hash, address addr, string memory detail) public {
+function functionaddAddressComponent() {
+  // TODO: Implement component logic for function addAddress(bytes32 hash, address addr, string memory detail) public {
+  return <div>function addAddress(bytes32 hash, address addr, string memory detail) public {</div>;
+}
+
+// Component for function getAddressDetails(bytes32 hash, address addr) public view returns (string memory) {
+function functiongetAddressDetailsComponent() {
+  // TODO: Implement component logic for function getAddressDetails(bytes32 hash, address addr) public view returns (string memory) {
+  return <div>function getAddressDetails(bytes32 hash, address addr) public view returns (string memory) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/ChainlinkCCIPImplementation.sol:
+// Component for function request(string memory _data) public returns (bytes32) {
+function functionrequestComponent() {
+  // TODO: Implement component logic for function request(string memory _data) public returns (bytes32) {
+  return <div>function request(string memory _data) public returns (bytes32) {</div>;
+}
+
+// Component for function getResponse(bytes32 _requestId) public view returns (string memory) {
+function functiongetResponseComponent() {
+  // TODO: Implement component logic for function getResponse(bytes32 _requestId) public view returns (string memory) {
+  return <div>function getResponse(bytes32 _requestId) public view returns (string memory) {</div>;
+}
+
+// Component for function sendData(address destinationChain, bytes calldata data) external {
+function functionsendDataComponent() {
+  // TODO: Implement component logic for function sendData(address destinationChain, bytes calldata data) external {
+  return <div>function sendData(address destinationChain, bytes calldata data) external {</div>;
+}
+
+// Component for function receiveData(bytes calldata data) external {
+function functionreceiveDataComponent() {
+  // TODO: Implement component logic for function receiveData(bytes calldata data) external {
+  return <div>function receiveData(bytes calldata data) external {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/ProjectRegistry.sol:
+// Component for function registerProject(bytes32 name, address owner) external onlyRole(REGISTRAR_ROLE) {
+function functionregisterProjectComponent() {
+  // TODO: Implement component logic for function registerProject(bytes32 name, address owner) external onlyRole(REGISTRAR_ROLE) {
+  return <div>function registerProject(bytes32 name, address owner) external onlyRole(REGISTRAR_ROLE) {</div>;
+}
+
+// Component for function getProject(bytes32 name) external view returns (Project memory) {
+function functiongetProjectComponent() {
+  // TODO: Implement component logic for function getProject(bytes32 name) external view returns (Project memory) {
+  return <div>function getProject(bytes32 name) external view returns (Project memory) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/ProofVerifier.sol:
+// Component for function verifyProof() external view onlyRole(VERIFIER_ROLE) returns (bool) {
+function functionverifyProofComponent() {
+  // TODO: Implement component logic for function verifyProof() external view onlyRole(VERIFIER_ROLE) returns (bool) {
+  return <div>function verifyProof() external view onlyRole(VERIFIER_ROLE) returns (bool) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/testContracts/AddressRegistry.sol:
+// Component for event StructureCreated(address indexed creator);
+function eventStructureCreatedComponent() {
+  // TODO: Implement component logic for event StructureCreated(address indexed creator);
+  return <div>event StructureCreated(address indexed creator);</div>;
+}
+
+// Component for event AddressAdded(address indexed creator, address indexed addr, bool isContract, bool isProxy);
+function eventAddressAddedComponent() {
+  // TODO: Implement component logic for event AddressAdded(address indexed creator, address indexed addr, bool isContract, bool isProxy);
+  return <div>event AddressAdded(address indexed creator, address indexed addr, bool isContract, bool isProxy);</div>;
+}
+
+// Component for event AddressUpdated(address indexed creator, uint256 index, address indexed addr, bool isContract, bool isProxy);
+function eventAddressUpdatedComponent() {
+  // TODO: Implement component logic for event AddressUpdated(address indexed creator, uint256 index, address indexed addr, bool isContract, bool isProxy);
+  return <div>event AddressUpdated(address indexed creator, uint256 index, address indexed addr, bool isContract, bool isProxy);</div>;
+}
+
+// Component for modifier onlyCreator() {
+function modifieronlyCreatorComponent() {
+  // TODO: Implement component logic for modifier onlyCreator() {
+  return <div>modifier onlyCreator() {</div>;
+}
+
+// Component for function createStructure() external {
+function functioncreateStructureComponent() {
+  // TODO: Implement component logic for function createStructure() external {
+  return <div>function createStructure() external {</div>;
+}
+
+// Component for function addAddress(address addr, bool isContract, bool isProxy) external onlyCreator {
+function functionaddAddressComponent() {
+  // TODO: Implement component logic for function addAddress(address addr, bool isContract, bool isProxy) external onlyCreator {
+  return <div>function addAddress(address addr, bool isContract, bool isProxy) external onlyCreator {</div>;
+}
+
+// Component for function updateAddress(uint256 index, address addr, bool isContract, bool isProxy) external onlyCreator {
+function functionupdateAddressComponent() {
+  // TODO: Implement component logic for function updateAddress(uint256 index, address addr, bool isContract, bool isProxy) external onlyCreator {
+  return <div>function updateAddress(uint256 index, address addr, bool isContract, bool isProxy) external onlyCreator {</div>;
+}
+
+// Component for function getAddressStructure(address creator) external view returns (AddressInfo[] memory) {
+function functiongetAddressStructureComponent() {
+  // TODO: Implement component logic for function getAddressStructure(address creator) external view returns (AddressInfo[] memory) {
+  return <div>function getAddressStructure(address creator) external view returns (AddressInfo[] memory) {</div>;
+}
+
+// Component for function finalizeStructure() external onlyCreator {
+function functionfinalizeStructureComponent() {
+  // TODO: Implement component logic for function finalizeStructure() external onlyCreator {
+  return <div>function finalizeStructure() external onlyCreator {</div>;
+}
+
+// Component for function isEditable(address creator) external view returns (bool) {
+function functionisEditableComponent() {
+  // TODO: Implement component logic for function isEditable(address creator) external view returns (bool) {
+  return <div>function isEditable(address creator) external view returns (bool) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/AttestationManagerImplementation.sol:
+// Component for event AttestationCreated(address indexed subject, bytes32 data);
+function eventAttestationCreatedComponent() {
+  // TODO: Implement component logic for event AttestationCreated(address indexed subject, bytes32 data);
+  return <div>event AttestationCreated(address indexed subject, bytes32 data);</div>;
+}
+
+// Component for event AttestationUpdated(address indexed subject, bytes32 data);
+function eventAttestationUpdatedComponent() {
+  // TODO: Implement component logic for event AttestationUpdated(address indexed subject, bytes32 data);
+  return <div>event AttestationUpdated(address indexed subject, bytes32 data);</div>;
+}
+
+// Component for event AttestationRemoved(address indexed subject);
+function eventAttestationRemovedComponent() {
+  // TODO: Implement component logic for event AttestationRemoved(address indexed subject);
+  return <div>event AttestationRemoved(address indexed subject);</div>;
+}
+
+// Component for function createAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {
+function functioncreateAttestationComponent() {
+  // TODO: Implement component logic for function createAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {
+  return <div>function createAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {</div>;
+}
+
+// Component for function getAttestation(address subject) external view returns (Attestation memory) {
+function functiongetAttestationComponent() {
+  // TODO: Implement component logic for function getAttestation(address subject) external view returns (Attestation memory) {
+  return <div>function getAttestation(address subject) external view returns (Attestation memory) {</div>;
+}
+
+// Component for function updateAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {
+function functionupdateAttestationComponent() {
+  // TODO: Implement component logic for function updateAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {
+  return <div>function updateAttestation(address subject, bytes32 data) external onlyRole(ATTESTOR_ROLE) {</div>;
+}
+
+// Component for function removeAttestation(address subject) external onlyRole(ATTESTOR_ROLE) {
+function functionremoveAttestationComponent() {
+  // TODO: Implement component logic for function removeAttestation(address subject) external onlyRole(ATTESTOR_ROLE) {
+  return <div>function removeAttestation(address subject) external onlyRole(ATTESTOR_ROLE) {</div>;
+}
+
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IChainlinkCCIP.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IEAS.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/IResolver.sol:
+Processing /home/dot/ECL - Ethereum Cross Link - v.1.0/src/contracts/CrossChainBridgeImplementation.sol:
+// Component for function bridgeTransfer(address recipient, uint256 amount) external {
+function functionbridgeTransferComponent() {
+  // TODO: Implement component logic for function bridgeTransfer(address recipient, uint256 amount) external {
+  return <div>function bridgeTransfer(address recipient, uint256 amount) external {</div>;
+}
+

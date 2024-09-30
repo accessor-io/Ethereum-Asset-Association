@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+Pconst { expect } = require('chai');
 const { ethers } = require('hardhat');
 
 describe('AddressRegistry', function () {

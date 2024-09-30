@@ -1,6 +1,3 @@
-
-### attestation-manager/services/verification-service/src/server.js
-```javascript
 const express = require('express');
 const bodyParser = require('body-parser');
 const ethers = require('ethers');
