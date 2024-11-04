@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "destinationChainId",
+						"type": "uint256"
+					}
+				],
+				"name": "bridgeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ICrossChainBridge.sol": "ICrossChainBridge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ICrossChainBridge.sol": {
+			"keccak256": "0xc0f30df7d114f90135680aebf33ed4eca54fc8383345e4bbc351308ae9060311",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a77fdb2d6f23258a76cc82184fd68efed9ca7882228c62dc22b8de6f4c3cce0",
+				"dweb:/ipfs/QmXQ9BDWCz163v7ocTuq3W3KKgUaY2Bmv7PTqA28J6Bkwa"
+			]
+		}
+	},
+	"version": 1
+}
