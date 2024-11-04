@@ -1,0 +1,111 @@
+/* main.css */
+
+/* Reset some basic elements */
+body, h1, h2, h3, p, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set some default font properties */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #004d99;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation menu styles */
+nav .menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+nav .menu a:hover {
+    background-color: #003366;
+}
+
+/* Main content styles */
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #004d99;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav .menu {
+        flex-direction: column;
+    }
+
+    nav .menu a {
+        margin-bottom: 10px;
+    }
+}

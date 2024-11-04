@@ -1,0 +1,102 @@
+/* Ethereum Themed CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #3C3C3D;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.address-input {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address-input input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #3C3C3D;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #222;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
+}
+
+.loading {
+  font-size: 1em;
+  color: #3C3C3D;
+  margin-top: 10px;
+}

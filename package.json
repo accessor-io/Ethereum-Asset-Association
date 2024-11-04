@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "your-app-name",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +11,37 @@
   "devDependencies": {
     "acorn": "^8.10.0",
     "eslint": "^8.0.0"
+=======
+  "name": "ecl-deployment-interface",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@ensdomains/eth-ens-namehash": "^2.0.15",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "codegen": "^0.1.0",
+    "ethers": "^5.7.2",
+    "framer-motion": "^10.0.1",
+    "graphql": "^16.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2"
+>>>>>>> fc368a7292fca8fbe9fcafab8104d53e622310ec
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +49,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
+=======
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+>>>>>>> fc368a7292fca8fbe9fcafab8104d53e622310ec
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "attestationId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EASImplementation.sol": "EASImplementation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EASImplementation.sol": {
+			"keccak256": "0x4633a7e45b4bfc77a8f3781b877e1b9bf9d9a992659dbcbdb6c8a54ec4d66511",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b9287d581a073124056c5b169263c5d82c5ebfc73551f688253f86e6f15bfff",
+				"dweb:/ipfs/QmQFS2ybK2EVUo38b6svEaz5TEzCRSHWntAq2f96i62aTt"
+			]
+		},
+		"contracts/IEAS.sol": {
+			"keccak256": "0xa038e5bda399a80bac72aa26b15409c16384ed63232f0a866252dda07b60f9cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6560c11094acc07e732df9dbbcc74b29051d7e947a31e17ced8fe6b40587844",
+				"dweb:/ipfs/QmQgxsufULppmVKzNkYiHvHiRCZzHTH4oRG4qNf5h376Xz"
+			]
+		}
+	},
+	"version": 1
+}

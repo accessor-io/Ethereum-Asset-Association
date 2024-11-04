@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "subject",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "data",
+						"type": "bytes32"
+					}
+				],
+				"name": "createAttestation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "subject",
+						"type": "address"
+					}
+				],
+				"name": "getAttestation",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IAttestationManager.sol": "IAttestationManager"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IAttestationManager.sol": {
+			"keccak256": "0x0e99b9a60a54df8f693a193ea7a8d29a594b3204e64e9017e6f8ee403b919f80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a2cdee6f6c1e7244594f4dbf6419f875af27e4db0122da807ff27b961eb637d",
+				"dweb:/ipfs/QmPRE18AxbZPqjypTnudzXHKtp9P5XXDvR4xxwSWbubYsL"
+			]
+		}
+	},
+	"version": 1
+}

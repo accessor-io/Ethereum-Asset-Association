@@ -1,1 +1,9 @@
 node_modules
+<<<<<<< HEAD
+=======
+log
+/log
+.next
+.env
+.env.local
+>>>>>>> fc368a7292fca8fbe9fcafab8104d53e622310ec
