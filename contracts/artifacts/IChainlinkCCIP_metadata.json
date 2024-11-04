@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "destinationChain",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "sendData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IChainlinkCCIP.sol": "IChainlinkCCIP"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IChainlinkCCIP.sol": {
+			"keccak256": "0xc4df9d59036a6d0bc8536546c4d975aac7828db0a5ee2d58862c83d1fdf5e3c6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e64d6b67401b5e620a43fa911205ef127a28c42d255b40b2729fe37b8cc8ce2",
+				"dweb:/ipfs/QmZM8rt9KykWVuQNaup25pSemRfE8h8sLVsxsvq6xoNTHe"
+			]
+		}
+	},
+	"version": 1
+}

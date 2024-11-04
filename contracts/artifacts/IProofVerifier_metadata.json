@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "proof",
+						"type": "bytes"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IProofVerifier.sol": "IProofVerifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IProofVerifier.sol": {
+			"keccak256": "0xb19264028a0feff78b3ca7f5ea6d4282b13b1ec49351ebe09403fab465c773f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5825e0da74f9bc09e7742ab725a1a2d859465a2fc88b652780562a972d33159a",
+				"dweb:/ipfs/QmWZEXUjRY88Q5L6ZRzcT6rk7MeSFVcNGhGVYCt59UWn6m"
+			]
+		}
+	},
+	"version": 1
+}

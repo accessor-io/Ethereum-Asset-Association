@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IEAS.sol": "IEAS"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IEAS.sol": {
+			"keccak256": "0xa038e5bda399a80bac72aa26b15409c16384ed63232f0a866252dda07b60f9cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6560c11094acc07e732df9dbbcc74b29051d7e947a31e17ced8fe6b40587844",
+				"dweb:/ipfs/QmQgxsufULppmVKzNkYiHvHiRCZzHTH4oRG4qNf5h376Xz"
+			]
+		}
+	},
+	"version": 1
+}

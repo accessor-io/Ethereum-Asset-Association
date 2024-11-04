@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "detail",
+						"type": "string"
+					}
+				],
+				"name": "addAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "getAddressDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ResolverImplementation.sol": "ResolverImplementation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IResolver.sol": {
+			"keccak256": "0xf731ef27235601fa2f963f679187d03f658623c3c1cba222c79b6e0675445c58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://803bfbf2bb573e5faf17699e891e492a2e8b66ec831896247ae6ff7501525d71",
+				"dweb:/ipfs/QmNun33Fb8Vcy4kDS8csQPDCEsLVPpq2qbL8FaQmyf2UG5"
+			]
+		},
+		"contracts/ResolverImplementation.sol": {
+			"keccak256": "0x260d06bdee907ec01cf6834822b412a57bc52cf99052380e9b0abed33b8e46de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5990deb8db1686b0e34c58ad58b66c355abc754d9441313e462b10ebcba9c8f9",
+				"dweb:/ipfs/QmVpGuMbgHJv4qA56zs1BFzinfXPPJAvzjfSJ3rvfgqRN8"
+			]
+		}
+	},
+	"version": 1
+}
