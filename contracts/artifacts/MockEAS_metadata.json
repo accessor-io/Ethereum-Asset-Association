@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MockEAS.sol": "MockEAS"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MockEAS.sol": {
+			"keccak256": "0x1a2946d8487fa999e10b1d2b5b08397e8b6a0594831a1898112968aef6e6c164",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62e3dbef2367d4684f80024b90b8d0b6f59270495e7e8dbc2002885fc4c4da02",
+				"dweb:/ipfs/QmbeU1n43TjGCL3RvGANiPNjaHVkQCFs7iSEqgEsBsTfNs"
+			]
+		}
+	},
+	"version": 1
+}

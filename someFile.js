@@ -1,0 +1,1 @@
+import { connectToEthereum } from './services/ethereumService';

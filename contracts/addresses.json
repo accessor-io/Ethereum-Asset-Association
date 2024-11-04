@@ -1,0 +1,32 @@
+{
+  "ethereum_mainnet": {
+    "MyENSContract": "0xEthereumMainnetContractAddress..."
+  },
+  "ethereum_goerli": {
+    "MyENSContract": "0xEthereumGoerliContractAddress..."
+  },
+  "base_mainnet": {
+    "MyENSContract": "0xBaseMainnetContractAddress..."
+  },
+  "base_testnet": {
+    "MyENSContract": "0xBaseTestnetContractAddress..."
+  },
+  "optimism_mainnet": {
+    "MyENSContract": "0xOptimismMainnetContractAddress..."
+  },
+  "optimism_testnet": {
+    "MyENSContract": "0xOptimismTestnetContractAddress..."
+  },
+  "arbitrum_mainnet": {
+    "MyENSContract": "0xArbitrumMainnetContractAddress..."
+  },
+  "arbitrum_testnet": {
+    "MyENSContract": "0xArbitrumTestnetContractAddress..."
+  },
+  "arbitrum_nova_mainnet": {
+    "MyENSContract": "0xArbitrumNovaMainnetContractAddress..."
+  },
+  "arbitrum_nova_testnet": {
+    "MyENSContract": "0xArbitrumNovaTestnetContractAddress..."
+  }
+}
