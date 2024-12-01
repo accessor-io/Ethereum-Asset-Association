@@ -9,15 +9,9 @@ export const AppWrapper = styled.div`
 
 export const MainContent = styled.main`
   flex: 1;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
+  padding: 2rem;
 `;
 
-export const PageTransition = styled(motion.div).attrs(() => ({
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  exit: { opacity: 0 },
-  transition: { duration: 0.3 }
-}))``; 
+export const PageTransition = styled(motion.div)`
+  width: 100%;
+`; 
