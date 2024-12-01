@@ -1,7 +1,8 @@
 import React from 'react';
-import './common.css'; // Importing common CSS for uniformity
+import './common.css';
 
 const BatchAttestations = () => {
+  // Placeholder for batch processing logic
   return <div className="component-container">BatchAttestations Component</div>;
 };
 
